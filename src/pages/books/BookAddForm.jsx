@@ -1,5 +1,7 @@
 import AddForm from '../../components/AddForm'
 
+import Button from 'react-bootstrap/Button';
+
 function BookAddForm() {
   return (
     <div>
@@ -9,6 +11,8 @@ function BookAddForm() {
       <div>
 
         <AddForm />
+
+        <Button>TEST BUTTON</Button>
 
       </div>
 
