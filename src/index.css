@@ -12,3 +12,27 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.dark {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  min-height: 100vh;
+}
+
+.light {
+  background-color: white;
+  color: rgb(25, 25, 25);
+  min-height: 100vh;
+}
+
+.dark-btn {
+  background-color: purple;
+  border-color: purple;
+  color: black
+}
+
+.light-btn {
+  background-color: green;
+  border-color: green;
+  color: white
+}
